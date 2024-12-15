@@ -19,5 +19,5 @@ jobs:
       env:
         IMAGE_TAG: ${{ github.sha }} # 用于标记容器版本号
       run: |
-        docker build -t registry.ap-northeast-1.aliyuncs.com/xuanmou/docker-proxy:$IMAGE_TAG .
-        docker push registry.ap-northeast-1.aliyuncs.com/xuanmou/docker-proxy:$IMAGE_TAG
+        docker build -t registry.ap-northeast-1.aliyuncs.com/dockerawa_proxy/docker-proxy:$IMAGE_TAG .
+        docker push registry.ap-northeast-1.aliyuncs.com/dockerawa_proxy/docker-proxy:$IMAGE_TAG
